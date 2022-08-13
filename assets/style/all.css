@@ -11569,4 +11569,8 @@ fieldset:disabled .btn {
   font-weight: 400;
 }
 
+.bg-color {
+  background: rgba(255, 229, 144, 0.5);
+}
+
 /*# sourceMappingURL=all.css.map */

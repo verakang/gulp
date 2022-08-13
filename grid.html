@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Boostrap Index
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="grid.html">Grid</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary shadow-none" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  
+<div class="container">
+    <h1>Bootstrap grid examples</h1>
+    <p class="fs-5 fw-light">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+    <p>In these examples the <span class="text-danger">.themed-grid-col</span> class is added to the columns to add some
+        theming. This is
+        not a class
+        that is available in Bootstrap by default.</p>
+    <section class="mb-4">
+        <h2>Five grid tiers</h2>
+        <p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts
+            at
+            a minimum viewport size and automatically applies to the larger devices unless overridden.</p>
+        <div class="row mb-3">
+            <div class="col-4 border border-primary py-3 bg-color">.col-4</div>
+            <div class="col-4 border border-primary py-3 bg-color">.col-4</div>
+            <div class="col-4 border border-primary py-3 bg-color">.col-4</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-sm-4 border border-primary py-3 bg-color">.col-sm-4</div>
+            <div class="col-sm-4 border border-primary py-3 bg-color">.col-sm-4</div>
+            <div class="col-sm-4 border border-primary py-3 bg-color">.col-sm-4</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-4 border border-primary py-3 bg-color">.col-md-4</div>
+            <div class="col-md-4 border border-primary py-3 bg-color">.col-md-4</div>
+            <div class="col-md-4 border border-primary py-3 bg-color">.col-md-4</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-lg-4 border border-primary py-3 bg-color">.col-lg-4</div>
+            <div class="col-lg-4 border border-primary py-3 bg-color">.col-lg-4</div>
+            <div class="col-lg-4 border border-primary py-3 bg-color">.col-lg-4</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-xl-4 border border-primary py-3 bg-color">.col-xl-4</div>
+            <div class="col-xl-4 border border-primary py-3 bg-color">.col-xl-4</div>
+            <div class="col-xl-4 border border-primary py-3 bg-color">.col-xl-4</div>
+        </div>
+    </section>
+    <section class="mb-4">
+        <h2>Three equal columns</h2>
+        <p>Get three equal-width columns <span class="fw-bold">starting at desktops and scaling to large
+                desktops.</span> On mobile devices, tablets and below, the columns will automatically stack.</p>
+        <div class="row mb-3">
+            <div class="col-md-4 border border-primary py-3 bg-color">.col-md-4</div>
+            <div class="col-md-4 border border-primary py-3 bg-color">.col-md-4</div>
+            <div class="col-md-4 border border-primary py-3 bg-color">.col-md-4</div>
+        </div>
+    </section>
+    <section class="mb-4">
+        <h2>Three unequal columns</h2>
+        <p>Get three columns <span class="fw-bold">starting at desktops and scaling to large desktops</span> of various
+            widths.
+            Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns
+            start stacking no matter the viewport.</p>
+        <div class="row mb-3">
+            <div class="col-md-3 border border-primary py-3 bg-color">.col-md-3</div>
+            <div class="col-md-6 border border-primary py-3 bg-color">.col-md-6</div>
+            <div class="col-md-3 border border-primary py-3 bg-color">.col-md-3</div>
+        </div>
+    </section>
+    <section class="mb-4">
+        <h2>Two columns</h2>
+        <p>Get two columns <span>starting at desktops and scaling to large desktops.</span></p>
+        <div class="row mb-3">
+            <div class="col-md-8 border border-primary py-3 bg-color">.col-md-8</div>
+            <div class="col-md-4 border border-primary py-3 bg-color">.col-md-4</div>
+        </div>
+    </section>
+    <section class="mb-4">
+        <h2>Full width, single column</h2>
+        <p class="text-primary">No grid classes are necessary for full-width elements.</p>
+    </section>
+    <hr class="my-4">
+    <section class="mb-4">
+        <h2>Two columns with two nested columns</h2>
+        <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you
+            two columns <span class="fw-bold">starting at desktops and scaling to large desktops</span>, with another
+            two (equal widths) within the larger column.</p>
+        <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+        <div class="row mb-3">
+            <div class="col-md-8 border border-primary py-3 bg-color">.col-md-8
+                <div class="row mt-3">
+                    <div class="col-md-6 border border-primary py-3 bg-color">.col-md-6</div>
+                    <div class="col-md-6 border border-primary py-3 bg-color">.col-md-6</div>
+                </div>
+            </div>
+            <div class="col-md-4 border border-primary py-3 bg-color">.col-md-4</div>
+        </div>
+    </section>
+    <hr class="my-4">
+    <section class="mb-4">
+        <h2>Mixed: mobile and desktop</h2>
+        <p>The Bootstrap v4 grid system has five tiers of classes: xs (extra small), sm (small), md (medium), lg
+            (large), and xl (extra large). You can use nearly any combination of these classes to create more dynamic
+            and flexible layouts.</p>
+        <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need
+            to specify xs.</p>
+        <div class="row mb-3">
+            <div class="col-12 col-md-8 border border-primary py-3 bg-color">.col-12 .col-md-8</div>
+            <div class="col-6 col-md-4 border border-primary py-3 bg-color">.col-6 .col-md-4</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6 col-md-4 border border-primary py-3 bg-color">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 border border-primary py-3 bg-color">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 border border-primary py-3 bg-color">.col-6 .col-md-4</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6 border border-primary py-3 bg-color">.col-6</div>
+            <div class="col-6 border border-primary py-3 bg-color">.col-6</div>
+        </div>
+    </section>
+    <hr class="my-4">
+    <section class="mb-5">
+        <h2>Mixed: mobile, tablet, and desktop</h2>
+        <div class="row mb-3">
+            <div class="col-12 col-sm-6 col-lg-8 border border-primary py-3 bg-color">.col-12 .col-sm-6 .col-lg-8</div>
+            <div class="col-6 col-lg-4 border border-primary py-3 bg-color">.col-6 .col-lg-4</div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6 col-sm-4 border border-primary py-3 bg-color">.col-6 .col-sm-4</div>
+            <div class="col-6 col-sm-4 border border-primary py-3 bg-color">.col-6 .col-sm-4</div>
+            <div class="col-6 col-sm-4 border border-primary py-3 bg-color">.col-6 .col-sm-4</div>
+        </div>
+    </section>
+</div>
+
+    <footer class="footer p-4 bg-primary text-center">
+      footer
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
