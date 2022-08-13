@@ -1,5 +1,3 @@
-console.log('Hello!');
-
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
+$(function() {
+  console.log('Hello Bootstrap5');
 });
